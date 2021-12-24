@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "car-auction": "apps/car-auction"
+    "car-auction": "apps/car-auction",
+    "image-compressor": "libs/image-compressor"
   }
 }

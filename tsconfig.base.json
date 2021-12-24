@@ -13,8 +13,11 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports":true, 
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@carauction/image-compressor": ["libs/image-compressor/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
